@@ -1,0 +1,5 @@
+git init "初使化git仓库"
+git add 【name】 "添加文件或文件夹到git仓库结构"
+git commint -a -m "更新说明提交 -a 所有更新说明 -m 本次提交文件更新说明"
+git status “查看当前git状态”
+git push “提交本地更新到远程仓库”
