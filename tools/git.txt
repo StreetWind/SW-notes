@@ -3,3 +3,10 @@ git add 【name】 "添加文件或文件夹到git仓库结构"
 git commint -a -m "更新说明提交 -a 所有更新说明 -m 本次提交文件更新说明"
 git status “查看当前git状态”
 git push “提交本地更新到远程仓库”
+git clone [url] "远程拉取代码库"
+git remote "列出远程主机"
+git branch "查看分支，-r 查看远程分支 【name】 创建本地分支， -d 【name】删除分支"
+git checkout “【分支】切换分支，【file】 还原上个版本”
+git rebase “移动分支”
+git log "查看历史日志"
+git reset “回归到指定版本，用log查看版本号”
