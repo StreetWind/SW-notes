@@ -1,0 +1,2 @@
+watch -n 5 pkill -USR1 ^dd$ 每5秒输出dd的进度
+dd if=path of=path if输入文件 of 输出文件
