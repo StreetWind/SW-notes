@@ -1,2 +1,5 @@
 #vim 常用快捷键或命令说明防止忘记
 
+#参照这个配置
+https://github.com/yangyangwithgnu/use_vim_as_ide
+
