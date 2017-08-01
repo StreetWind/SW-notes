@@ -1,2 +1,6 @@
 #vim 常用快捷键或命令说明防止忘记
 
+:breakadd file [lnum] [name] 在文件（文件名为name），第（lnum）行设置断点。当vim加载到该位置时，会自动进入调试模式。
+:breakadd func [lnum] [name] 在函数（函数名为name），第（lnum）行设置断点。当vim加载到该位置时，会自动进入调试模式。
+:breaklist 列出当前设置的所有断点。
+:breakdel {nr} 删除第（nr）号断点。
