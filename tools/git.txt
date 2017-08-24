@@ -7,6 +7,11 @@ git clone [url] "远程拉取代码库"
 git remote "列出远程主机"
 git branch "查看分支，-r 查看远程分支 【name】 创建本地分支， -d 【name】删除分支"
 git checkout “【分支】切换分支，【file】 还原上个版本”
-git rebase “移动分支”
 git log "查看历史日志"
-git reset “回归到指定版本，用log查看版本号”
+git reset “回滚到指定版本，用log查看版本号”
+git merge "git merge 需要分支 合并分支"
+git rebase "线性移动合并"
+git revert "撤销快照操作"
+
+##########
+(git常用问题)https://github.com/geeeeeeeeek/git-recipes/wiki
