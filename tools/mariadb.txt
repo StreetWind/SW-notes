@@ -4,7 +4,14 @@ use databasename; //切换数据库
 show tables; //查看数据表
 describe tanbelname;//查看表结构
 select user,host from mysql.user; //查看数据库用户
-create user 'username'@'host' identified by 'password' //创建用户
-grant all on databasname.tablename to 'usrname'@'host' //授予用户权限
-flush privileges； //刷新权限
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'my-new-password' WITH GRANT OPTION; //开启root所有人登录权限
+create user 'username'@'host' identified by 'password'; //创建用户
+grant all on databasname.tablename to 'usrname'@'host'; //授予用户权限
+flush privileges; //刷新权限
 GRANT privileges ON databasename.tablename TO 'username'@'host' WITH GRANT OPTION; //授予用户可以给其他用户授权
+
+###arch中的一些配置选项
+#mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+# systemctl start mariadb
+# mysql_secure_installation
+# systemctl restart mariadb
